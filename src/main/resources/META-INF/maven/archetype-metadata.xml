@@ -4,13 +4,16 @@
                       xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0"
                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <requiredProperties>
+        <requiredProperty key="version">
+            <defaultValue>1.0.0</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="package">
+            <defaultValue>${groupId}.${artifactId}</defaultValue>
+        </requiredProperty>
         <requiredProperty key = "mainClass">
             <defaultValue>Main</defaultValue>
         </requiredProperty>
         <requiredProperty key = "pluginName"/>
-        <requiredProperty key = "pluginVersion">
-            <defaultValue>1.0.0</defaultValue>
-        </requiredProperty>
         <requiredProperty key = "pluginAuthor"/>
         <requiredProperty key = "pluginDescription"/>
         <requiredProperty key = "pluginWebsite">

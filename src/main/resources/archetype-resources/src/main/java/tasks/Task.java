@@ -5,7 +5,7 @@ package ${package};
 
 import org.bukkit.Bukkit;
 
-import ${groupId}.${artifactId}.${mainClass};
+import ${package}.${mainClass};
 
 public class Task implements Runnable {
     @Override

@@ -8,7 +8,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-import ${groupId}.${artifactId}.${mainClass};
+import ${package}.${mainClass};
 
 public class Command implements CommandExecutor {
     @Override

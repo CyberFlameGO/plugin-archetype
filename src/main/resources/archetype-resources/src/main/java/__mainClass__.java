@@ -7,9 +7,9 @@ import java.util.logging.Level;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.Bukkit;
 
-import ${groupId}.${artifactId}.commands.Command;
-import ${groupId}.${artifactId}.listeners.PlayerJoinListener;
-import ${groupId}.${artifactId}.tasks.Task;
+import ${package}.commands.Command;
+import ${package}.listeners.PlayerJoinListener;
+import ${package}.tasks.Task;
 
 public class ${mainClass} extends JavaPlugin {
 
