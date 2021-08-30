@@ -1,0 +1,8 @@
+name: ${pluginName}
+main: ${package}.${mainClass}
+version: ${project.version}
+description: ${project.description}
+website: ${project.url}
+author: ${pluginAuthor}
+api-version: ${apiVersion}
+load: POSTWORLD
